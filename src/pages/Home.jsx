@@ -1,6 +1,7 @@
 import React from 'react'
 import Resume from '../assets/Resume.pdf'
 import Bg from "../components/Bg"
+import Mainimg from "../assets/laptop wave.png"
 function Home() {
   return (
     <>
@@ -24,7 +25,7 @@ function Home() {
                   </a>
                  </div>
             </div>
-            <img src="https://d3tqq64j8blxdp.cloudfront.net/wp-content/uploads/20230615113959/best-web-development-languages.webp" alt="" className="h-[420px] w-[420px] object-cover mr-32 rounded-full animated-img" />
+            <img src={Mainimg} alt="" className="h-[420px] w-[420px] object-cover mr-32 rounded-xl animated-img" />
 
       </div>
     </div>
